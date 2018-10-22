@@ -17,7 +17,6 @@
   <link rel="stylesheet" type="text/css" href="css/set1.css" />
   <link href="css/overwrite.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -38,8 +37,21 @@
           <ul class="nav nav-tabs" role="tablist">            
             <li role="presentation" class="active"><a href="#">Inicio</a></li>
             <li role="presentation"><a href="index.html">Lecturas</a></li>
-            <li role="presentation"><a href="#">Multimedia</a></li>
-            <li role="presentation"><a href="#">Actividades</a></li>
+            <li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Multimedia<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a>Multimedia 1</a></li>
+						<li><a>Multimedia 2</a></li>
+					</ul>
+			</li>
+            <li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actividades<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a>Actividad 1</a></li>
+						<li><a>Actividad 2</a></li>
+						<li><a>Actividad 3</a></li>
+					</ul>
+			</li>
             <li role="presentation"><a href="#">Autores</a></li>
           </ul>
         </div>
@@ -147,7 +159,6 @@
   <script type="text/javascript">
     $('.portfolio').flipLightBox()
   </script>
-
 </body>
 
 </html>
