@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UNAD</title>
+  <title>MULTIMEDIA</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +18,6 @@
   <link href="css/overwrite.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/actividades.css">
-
 </head>
 
 <body>
@@ -37,69 +36,58 @@
       <div class="navbar-collapse collapse">
         <div class="menu">
           <ul class="nav nav-tabs" role="tablist">            
-            <li role="presentation" class="active"><a href="index.html">Inicio</a></li>
-            <li role="presentation"><a href="index.html">Lecturas</a></li>
+            <li role="presentation"><a href="index.html">Inicio</a></li>
+            <li role="presentation"><a href="Lecturas.html">Lecturas</a></li>
+            <li role="presentation" class="active"><a href="Multimedia.html">Multimedia</a></li>
+            <li role="presentation" class="activities"><a href="Actividades.html">Actividades</a>
+              <ul class="submenu">
+                <li><a href="#actividad1">Actividad 1</a></li>
+                <li><a href="#actividad2">Actividad 2</a></li>
+                <li><a href="#actividad3">Actividad 3</a></li>
+              </ul>
+            </li>
+            <li role="presentation"><a href="Autores.html">Autores</a></li>           
           </ul>
         </div>
       </div>
     </div>
   </nav>
+
+ 
   <div class="container">
-    <div class="row">
-      <div class="slider">
-        <div class="img-responsive">
-          <ul class="bxslider">
-            <li><img src="img/01.jpg" alt="" /></li>
-            <li><img src="img/01.jpg" alt="" /></li>
-            <li><img src="img/01.jpg" alt="" /></li>
-          </ul>
-        </div>
+    <div class="row">     
+      <div id="pane" >
+        <br> <br/>         
+          <br> <br/>
+          <img class="center-block" src="img/multimedia.jpg">
+          
+          <table class="center" style="width:60%">           
+            <td><a title="Doocumentación" href="Multimedia1"><img src="img/documentacion.jpg" alt="Documentación" /></a></td>   
+            <td><a title="Pruebas" href="Multimedia2"><img src="img/pruebas.jpg" alt="pruebas" /></a></td> 
+           </table> 
+            
       </div>
-    </div>
+              
+    </div>  
   </div>
-  <!--contenido de sesion-->
-  <div class="container">
-    <div class="row">
-      <div class="box">
-        <div class="col-md-4">
-          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
-            <h4>Información</h4>
-            <div class="icon">
-              <i class="fa fa-location-arrow fa-3x"></i>
-            </div>
-            <p>Contenido</p>
-            <div class="ficon">
-              <a href="#" class="btn btn-default" role="button">Continuar...</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
-            <h4>Información</h4>
-            <div class="icon">
-              <i class="fa fa-desktop fa-3x"></i>
-            </div>
-            <p>Contenido</p>
-            <div class="ficon">
-              <a href="#" class="btn btn-default" role="button">Continuar...</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.6s">
-            <h4>Información</h4>
-            <div class="icon">
-              <i class="fa fa-location-arrow fa-3x"></i>
-            </div>
-            <p>Contenido</p>
-            <div class="ficon">
-              <a href="#" class="btn btn-default" role="button">Cntinuar...</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+ </div> 
+
+  
+<div class="w3-sidebar w3-bar-block" style="margin-left:80%">  
+  <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/UniversidadUNAD"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+ <!-- Contador de visitas -->
+          <center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+            <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=255020"></a><br></center>
+                      <!-- Fin Contador de visitas -->           
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">open</span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  ...
+</div>
 <!--pie de página-->
   <footer>
     <div class="last-div">
@@ -108,12 +96,7 @@
           <div class="copyright">
             Grupo:
             <div class="credits">
-              <!--
-                All the links in the footer should remain intact. 
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eNno
-              -->
+           
               <a href="#">unad</a>
             </div>
           </div>
@@ -122,7 +105,8 @@
       <div class="container">
         <div class="row">
           <ul class="social-network">
-            <li><a href="#" data-placement="top" title="contenido">contenido</a></li>
+          <li><a href="#" data-placement="top" title="contenido">contenido</a></li>
+            <a class="twitter-timeline">
         </div>
       </div>
 
@@ -132,6 +116,7 @@
     </div>
   </footer>
 
+</a>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-2.1.1.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -144,7 +129,12 @@
   <script src="js/functions.js"></script>
   <script type="text/javascript">
     $('.portfolio').flipLightBox()
-  </script>
+  </script>  
+
+
+
+
+  
 </body>
 
 </html>
