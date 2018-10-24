@@ -1,8 +1,4 @@
 /*
-    Theme Name: eNno
-    Theme URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
 */
 /* ==== Google font ==== */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
@@ -613,13 +609,13 @@ a.scrollup{
 a.scrollup:hover{
 	opacity:1;
 	background-color:#36CBD4;
-	color:#fff;	
+	color:#fff;;	
 }
 /*
   Snippet by:- Vijay Sasavadiya;
   e-mail:- vijaysasavadiya.vs@gmail.com;
 */
-/*estilos del menu*/
+
 /*.navbar-default{background-color:#fff;border-left:none;border-right:none;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0}
 .navbar-nav{margin-top:0;margin-bottom:0}
 .navbar-brand{padding-top:2px;padding-bottom:2px;height:60px}
