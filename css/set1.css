@@ -20,12 +20,12 @@
 }
 
 
-#pane {
+#panel {
 	
 font : 20pt Franklin Gothic Book;
 position: relative;
 background-align: center;
-text-align: justify;
+text-align: center;
 color : #000000;
 } 
 
