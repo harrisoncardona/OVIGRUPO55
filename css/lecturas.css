@@ -1,18 +1,6 @@
-body{
-    background: #ffffff;
-    color: #00000;
-    font-family: 'open sans', 'sans-serif';
-   }
-
-
-p {
-    padding: 4px;
-    font-family: 'georgia';
-}
-
-
 h2{
     color: #08088A;
+    font-family: 'Franklin Gothic Heavy';
 }
 
 .body{
@@ -20,14 +8,19 @@ h2{
 }
 
 
-.subtitle{
+section{
+    margin-left: 50px;
+    margin-right: 50px;
     position: relative;
-    color: #08088A;
+    font-family: 'arial black'
+    font-size: 20px;
+
 }
 
-section{
-    border: 3px color green;
-    margin-left: 200px;
-    margin-right: 200px;
-    position: relative;
+.background{
+    border: 3px color: green;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: inset 8px #f2880d;
+    background: #F9FDFE;
 }
