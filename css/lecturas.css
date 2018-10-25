@@ -1,0 +1,33 @@
+body{
+    background: #ffffff;
+    color: #00000;
+    font-family: 'open sans', 'sans-serif';
+   }
+
+
+p {
+    padding: 4px;
+    font-family: 'georgia';
+}
+
+
+h2{
+    color: #08088A;
+}
+
+.body{
+    position: relative;
+}
+
+
+.subtitle{
+    position: relative;
+    color: #08088A;
+}
+
+section{
+    border: 3px color green;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+}
