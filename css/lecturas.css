@@ -1,0 +1,26 @@
+h2{
+    color: #08088A;
+    font-family: 'Franklin Gothic Heavy';
+}
+
+.body{
+    position: relative;
+}
+
+
+section{
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    font-family: 'arial black'
+    font-size: 20px;
+
+}
+
+.background{
+    border: 3px color: green;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: inset 8px #f2880d;
+    background: #F9FDFE;
+}
