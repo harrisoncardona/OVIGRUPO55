@@ -21,10 +21,16 @@ ul li:hover > ul{
 
 section.a{
 	min-width: 33.33%;
+	width: 33.33%;
+	max-width: 33.33%;
 	float: left;
 }
 
+section.a:hover{
+	background-color: rgb(0,0,0,0.5);
+}
+
 img.a-img{
-	width: 100%;
+	max-width: 100% !important;
 	height: auto;
 }
