@@ -19,16 +19,6 @@
 	
 }
 
-
-#panel {
-	
-font : 20pt Franklin Gothic Book;
-position: relative;
-background-align: center;
-text-align: center;
-color : #000000;
-} 
-
 /* Common style */
 .grid figure {
 	position: relative;
@@ -1166,4 +1156,3 @@ figure.effect-chico:hover p {
 		width: 100%;
 	}
 }
-
